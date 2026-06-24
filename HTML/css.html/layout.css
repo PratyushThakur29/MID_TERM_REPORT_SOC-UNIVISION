@@ -1,0 +1,239 @@
+/* body{
+    background-color:rgb(66, 2, 95);
+}
+h1{
+    color:rgb(255, 255, 255);
+    font-family:"Press Start 2P","Consolas  ";
+}
+p{
+    font-family:"Press Start 2P","Consolas  ";
+    color:rgb(211, 10, 214);
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: blue;
+    font-size: 18px;
+}
+#p1{
+    color:aquamarine;
+}
+.even{
+    color: red;
+}
+.odd{
+    color: yellowgreen;
+} */
+
+h1{
+    border-top-style:dotted;
+    border-bottom-style:dotted;
+    border-left-style:dotted;
+    border-left-width:5px;
+    border-left-color:greenyellow;
+}
+
+p{
+    border-style:inset;
+    border-radius: 10px;
+    border-color: gray;
+    border-width:5px;
+    padding: 5px;
+}
+
+body{
+    background-image: url(https://depositphotos-blog.s3.eu-west-1.amazonaws.com/uploads/2017/07/Soothing-nature-backgrounds-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    background:linear-gradient(to right, aqua , goldenrod);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    background:linear-gradient(to left, darkgreen, brown);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#p1{
+    border: 5px solid;
+    padding: 10px;
+    border-radius: 30px;
+    border-width: 50px;
+    width: 50px;
+}
+
+#b101{
+    border: 5px solid;
+    margin:10px;
+    padding: 10px;
+    width: 250px;
+    background-color: aqua;
+    border-radius: 20;
+    font-size: 15px;
+    margin-left: auto;
+
+    float: left;
+    position: sticky;
+    top: 0px;
+}
+p{
+    clear: both;
+}
+a:link{
+    color: lawngreen;
+}
+a:visited{
+    color:gray;
+}
+a:hover{
+    color:tomato;
+}
+button:hover{
+    background-color: green;
+}
+button:active{
+    background-color: gray;
+}
+li:nth-child(odd){
+    background-color: lightblue;
+}
+li:nth-child(2n){
+    background-color: greenyellow;
+}
+h1{
+    text-shadow: 5px 5px 5px tomato , 0px -5px 5px lightblue;
+}
+h1:hover{
+    box-shadow: 5px 5px 5px black;
+}
+#box34{
+    border: 4px solid;
+    width:250px;
+    height:250px;
+    margin: 50px;
+    font-size: 200px;
+    color: tomato;
+    text-align: center;
+    background-color: aqua;
+    
+    transform: rotateZ(180deg'angle');
+    transform: scale(50px);
+    transform: skew(45deg, 20deg);
+    transform: matrix3d(1,0,0,1,0,0);
+}
+#box35{
+    border: 4px solid;
+    width:250px;
+    height:250px;
+    margin: 50px;
+    font-size: 200px;
+    color: tomato;
+    text-align: center;
+    background-color: aqua;
+
+    animation: mySlide;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+}
+#box36{
+    border: 4px solid;
+    width:250px;
+    height:250px;
+    margin: 50px;
+    font-size: 200px;
+    color: tomato;
+    text-align: center;
+    background-color: aqua;
+
+    animation: myRotate;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+}
+#box37{
+    border: 4px solid;
+    width:250px;
+    height:250px;
+    margin: 50px;
+    font-size: 200px;
+    color: tomato;
+    text-align: center;
+    background-color: aqua;
+
+    animation: myfade;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+}
+#box38{
+    border: 4px solid;
+    width:250px;
+    height:250px;
+    margin: 50px;
+    font-size: 200px;
+    color: tomato;
+    text-align: center;
+    background-color: aqua;
+
+    animation: myscale;
+    animation-play-state: running;
+    animation-iteration-count: one;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+}
+#box39{
+    border: 4px solid;
+    width:250px;
+    height:250px;
+    margin: 50px;
+    font-size: 200px;
+    color: tomato;
+    text-align: center;
+    background-color: aqua;
+
+    animation: mycolor;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+}
+
+
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+@keyframes myRotate{
+    100%{transform: rotateZ(360deg)}
+}
+
+@keyframes myfade {
+    50%{opacity: 0;}
+}
+@keyframes myscale{
+    50%{transform: scale(0.5,0.5);}
+    from{margin-top: 10%;}
+    to{margin-bottom: 10%;}
+}   
+@keyframes mycolor{
+    0%{background-color: red;}
+    20%{background-color: yellow;}
+    40%{background-color: green;}
+    60%{background-color: blue;}
+    80%{background-color: purple;}
+    100%{background-color: white;}
+}
