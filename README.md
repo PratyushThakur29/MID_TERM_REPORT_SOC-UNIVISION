@@ -1,4 +1,4 @@
-# 🎯 Midterm Progress Report: Core Engineering & Pipeline Fundamentals
+# 🎯 Midterm Progress Report: SOC-UNIVISION-61
 
 A comprehensive documentation tracking my technical progress and mastery of foundational engineering principles, data pipelines, web architectures, and matrix manipulations. 
 
