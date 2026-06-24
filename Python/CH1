@@ -1,0 +1,18 @@
+a=input("Enter Number 1 : ")
+b=input("Enter Number 2 : ")
+print("entered number 1 is",a)
+print("entered number 2 is",b)
+print(a+b)
+a=int(input("Enter Number 1 : "))
+b=int(input("Enter Number 2 : "))
+print("entered number 1 is",a)
+print("entered number 2 is",b)
+print(a+b)
+
+a=55
+b=9
+print(a % b)
+a=34
+b=80
+c=a>=b
+print(c)

@@ -1,0 +1,56 @@
+# a="Pratyush"
+# a[2]="t"
+# print(a) # 'str' object doesnot suppport item assignment
+A=[1,55,55,55,3,6,2] #list
+print(A)
+A[0]="Jahanvi"
+print(A)
+# Conclusion in strg are not mutable, Lists are mutable
+A.append("Pavan")
+print(A)
+A=[1,55,55,55,3,6,2]
+A.sort()
+print(A)
+A.reverse()
+print(A)
+A.insert(0,69)
+print(A)
+A.pop(3)
+print(A)
+A.remove(2)
+print(A)
+print(A.count(55))
+
+a=(1,355, 45, 45) #Tuple, Its is similar to list just are not mutable list
+print(type(a))
+print(a)
+print(a.count(45))
+print(a.index(45))
+print(max(a))
+print(sorted(a))
+print(sum(a))
+b ,c ,d ,e = a#tuple unpacking
+
+List=[input("1:"),input("2:")]
+print(List)
+
+marks=[]
+m1=input("makrs of student:")
+marks.append(m1)
+m2=input("makrs of student:")
+marks.append(m2)
+m3=input("makrs of student:")
+marks.append(m3)
+m4=input("makrs of student:")
+marks.append(m4)
+m5=input("makrs of student:")
+marks.append(m5)
+
+marks.sort()
+print(marks)
+
+C=[39,4758,3849,3940]
+print(sum(C))
+
+D=(7,0,8,0,0,9)
+print(D.count(0))

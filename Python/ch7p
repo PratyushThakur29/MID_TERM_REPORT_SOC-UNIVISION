@@ -1,0 +1,23 @@
+# a={
+#   "madad":"need",
+#   "zarurat":"need"
+# }
+# word=(input("word: "))
+# print(a[word])
+
+b=set()
+b.add(int(input("enter your no.")))
+b.add(int(input("enter your no.")))
+b.add(int(input("enter your no.")))
+print(b)
+c=set()
+c.add(20)
+c.add(20.0)
+c.add("20")
+print(len(c)) #if the value are equal python don't care about the data type i.e. 1==1.0 will be true
+
+d={}
+d.update({input("enter your name: "): input("language: ")})
+d.update({input("enter your name: "): input("language: ")})
+d.update({input("enter your name: "): input("language: ")})
+print(d)

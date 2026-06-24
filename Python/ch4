@@ -1,0 +1,44 @@
+name = "Pratyush"
+print(name[0:3])
+print(name[:5])
+print(name[2:])
+print(name[0:7:1])
+print(name[0:7:3])
+
+name="helloworld"
+length=len(name)
+print(length)
+print(len(name))
+name2="Hello World"
+print(name2.endswith("ld"))
+print(name2.startswith("He"))
+print(name2.capitalize())
+print(name2.upper())
+print(name2.lower())
+print(name2.count("l"))
+print(name2.find("World"))
+print(name2.replace("World" , "Panda"))
+print(name2.split())
+Jahanvi="she is a\nbhery\tbhery \'preety\' girl"
+print(Jahanvi)
+
+print("Good afternoon," , input("please tell your name : ",))
+
+name3=input("Enter your name : ")
+print(f"Good afternoon, {name3}")
+Letter = '''Dear [name]
+your are selected. Your D.O.B is
+[date]'''
+P = Letter.replace("[name]",input("Enter your name : ")).replace("[date]", input("Enter Date : "))
+import pyttsx3
+engine=pyttsx3.init()
+engine.say(P)
+engine.runAndWait()
+Name4="Pratyush is  a good boy"
+print(Name4.find("  "))
+print(Name4.replace("  " ,  " "))
+letter="hello PANDA i am feeling hungry"
+import pyttsx3
+engine=pyttsx3.init()
+engine.say(letter)
+engine.runAndWait()

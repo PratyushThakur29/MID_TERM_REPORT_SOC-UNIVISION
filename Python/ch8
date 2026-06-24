@@ -1,0 +1,17 @@
+a=int(input("enter your age: "))
+
+if(a%2==0):
+    print("even")
+else:
+    print("odd")
+    
+if(a>=18):
+    print("yes")
+
+elif(0<a<18):
+    print("no")
+
+else:
+    print("not a valid age")
+
+print("End of the program")

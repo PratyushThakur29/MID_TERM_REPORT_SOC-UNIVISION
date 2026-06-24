@@ -1,0 +1,30 @@
+# Truth Table of 'or' - sum
+# Turth table of 'and' - multiply
+c=True or False
+d=True and False
+print(c,d)
+print(not(True))
+print(not(c))
+print(not(d))
+
+a="31.2"
+b=float(a)
+print(b)
+print(type(a))
+print(type(b))
+print(type(c))
+a=54
+b=9
+print(a % b)
+a=34
+b=80
+c=a>=b
+print(c)
+a=int(input("Enter Number 1 : "))
+b=int(input("Enter Number 2 : "))
+print("entered number 1 is",a)
+print("entered number 2 is",b)
+e=(a+b)/2
+print(int(e))
+a=int(input("Enter Number 1 : "))
+print(a*a)
